@@ -1,0 +1,233 @@
+.body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+/*----NAVABAR----*/
+
+.nav-link {
+    font-size: 22px;
+    color: black;
+    margin-right: 1.8vw;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    color: red;
+    margin-right: 1.8vw;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+
+/*--x--NAVABAR--x--*/
+
+
+/*---MAIN----*/
+
+.bg-image {
+    background: url("./assets/main_background.jpg") no-repeat top center;
+    justify-content: center;
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.img-fluid {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.container-flex {
+    padding: 15px;
+}
+
+hr {
+    background-color: rgb(201, 198, 198);
+    height: 1px;
+    margin: 15px;
+}
+
+.bg-content,
+.container-3,
+.last {
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.title {
+    background-color: rgb(81, 174, 138);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 40px 340px;
+}
+
+h2.title-button {
+    padding-top: 10px;
+}
+
+
+/*--x--MAIN--x--*/
+
+
+/*---COLUMN----*/
+
+h2 {
+    color: white;
+    padding-top: 18px;
+    font-weight: bold;
+    letter-spacing: 0.7rem;
+    font-size: 25px;
+}
+
+.card-body {
+    background-color: rgb(14, 211, 136);
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 10vh;
+}
+
+.col-md-6 {
+    padding-top: 50px;
+}
+
+
+/*--x--COLUMN--x--*/
+
+
+/*----ASIDE-----*/
+
+aside {
+    width: 80%;
+    padding-left: .4rem;
+    margin-left: .5rem;
+    float: right;
+    /*box-shadow: inset 5px 0 5px -5px #29627e;*/
+    color: #29627e;
+}
+
+aside>p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.head-call {
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.title-question {
+    font-size: 30px;
+}
+
+.ayuda-content {
+    margin-left: 0px;
+}
+
+
+/*--x--ASIDE--x---*/
+
+.th-line {
+    background-color: rgb(108, 100, 100);
+    justify-content: center;
+    display: flex;
+    height: 40px;
+}
+
+
+/*-----FOOTER------*/
+
+.container-5 {
+    height: 20vh;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.fab.fa-facebook,
+.fab.fa-instagram,
+.fab.fa-twitter,
+.fab.fa-youtube {
+    color: rgb(193, 188, 188);
+    font-size: 2.5rem;
+}
+
+.social {
+    letter-spacing: 0.9rem;
+}
+
+.last {
+    margin: 10px 10px;
+}
+
+
+/*--x--FOOTER--x---*/
+
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 984px) {
+    .head-call {
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+    .title-question {
+        font-size: 20px;
+    }
+    .ayuda-content {
+        margin-left: 0px;
+    }
+    .th-line {
+        height: 30px;
+        width: 100%;
+    }
+    .title {
+        width: 200px;
+        margin: 40px 270px;
+    }
+    .card-body {
+        margin-bottom: 10px;
+    }
+    .last {
+        padding-left: 3vw;
+    }
+}
